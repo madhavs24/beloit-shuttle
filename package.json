@@ -1,0 +1,13 @@
+{
+  "name": "beloit-shuttle",
+  "version": "1.0.0",
+  "description": "Beloit College shuttle tracking + reservation web app. Zero external dependencies (Node built-ins only). GPS live-tracking module pending integration.",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "reset": "node seed.js --reset"
+  }
+}
